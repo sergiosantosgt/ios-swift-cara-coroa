@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046B24C027F2A446001A0D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B24BF27F2A446001A0D03 /* AppDelegate.swift */; };
+		046B24C227F2A446001A0D03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B24C127F2A446001A0D03 /* SceneDelegate.swift */; };
+		046B24C427F2A446001A0D03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B24C327F2A446001A0D03 /* ViewController.swift */; };
+		046B24C727F2A446001A0D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046B24C527F2A446001A0D03 /* Main.storyboard */; };
+		046B24C927F2A44B001A0D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046B24C827F2A44B001A0D03 /* Assets.xcassets */; };
+		046B24CC27F2A44B001A0D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046B24CA27F2A44B001A0D03 /* LaunchScreen.storyboard */; };
+		046B24D727F2A44B001A0D03 /* ios_cara_coroaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B24D627F2A44B001A0D03 /* ios_cara_coroaTests.swift */; };
+		046B24E227F2A44B001A0D03 /* ios_cara_coroaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B24E127F2A44B001A0D03 /* ios_cara_coroaUITests.swift */; };
+		0496008127F2AC10002903F9 /* DetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496008027F2AC10002903F9 /* DetalhesViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046B24D327F2A44B001A0D03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046B24B427F2A446001A0D03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046B24BB27F2A446001A0D03;
+			remoteInfo = "ios-cara-coroa";
+		};
+		046B24DE27F2A44B001A0D03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046B24B427F2A446001A0D03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046B24BB27F2A446001A0D03;
+			remoteInfo = "ios-cara-coroa";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046B24BC27F2A446001A0D03 /* ios-cara-coroa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-cara-coroa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046B24BF27F2A446001A0D03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		046B24C127F2A446001A0D03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		046B24C327F2A446001A0D03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		046B24C627F2A446001A0D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046B24C827F2A44B001A0D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046B24CB27F2A44B001A0D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046B24CD27F2A44B001A0D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046B24D227F2A44B001A0D03 /* ios-cara-coroaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-cara-coroaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046B24D627F2A44B001A0D03 /* ios_cara_coroaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_cara_coroaTests.swift; sourceTree = "<group>"; };
+		046B24D827F2A44B001A0D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046B24DD27F2A44B001A0D03 /* ios-cara-coroaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-cara-coroaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046B24E127F2A44B001A0D03 /* ios_cara_coroaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_cara_coroaUITests.swift; sourceTree = "<group>"; };
+		046B24E327F2A44B001A0D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0496008027F2AC10002903F9 /* DetalhesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046B24B927F2A446001A0D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046B24CF27F2A44B001A0D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046B24DA27F2A44B001A0D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046B24B327F2A446001A0D03 = {
+			isa = PBXGroup;
+			children = (
+				046B24BE27F2A446001A0D03 /* ios-cara-coroa */,
+				046B24D527F2A44B001A0D03 /* ios-cara-coroaTests */,
+				046B24E027F2A44B001A0D03 /* ios-cara-coroaUITests */,
+				046B24BD27F2A446001A0D03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046B24BD27F2A446001A0D03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046B24BC27F2A446001A0D03 /* ios-cara-coroa.app */,
+				046B24D227F2A44B001A0D03 /* ios-cara-coroaTests.xctest */,
+				046B24DD27F2A44B001A0D03 /* ios-cara-coroaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046B24BE27F2A446001A0D03 /* ios-cara-coroa */ = {
+			isa = PBXGroup;
+			children = (
+				046B24BF27F2A446001A0D03 /* AppDelegate.swift */,
+				0496008027F2AC10002903F9 /* DetalhesViewController.swift */,
+				046B24C127F2A446001A0D03 /* SceneDelegate.swift */,
+				046B24C327F2A446001A0D03 /* ViewController.swift */,
+				046B24C527F2A446001A0D03 /* Main.storyboard */,
+				046B24C827F2A44B001A0D03 /* Assets.xcassets */,
+				046B24CA27F2A44B001A0D03 /* LaunchScreen.storyboard */,
+				046B24CD27F2A44B001A0D03 /* Info.plist */,
+			);
+			path = "ios-cara-coroa";
+			sourceTree = "<group>";
+		};
+		046B24D527F2A44B001A0D03 /* ios-cara-coroaTests */ = {
+			isa = PBXGroup;
+			children = (
+				046B24D627F2A44B001A0D03 /* ios_cara_coroaTests.swift */,
+				046B24D827F2A44B001A0D03 /* Info.plist */,
+			);
+			path = "ios-cara-coroaTests";
+			sourceTree = "<group>";
+		};
+		046B24E027F2A44B001A0D03 /* ios-cara-coroaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				046B24E127F2A44B001A0D03 /* ios_cara_coroaUITests.swift */,
+				046B24E327F2A44B001A0D03 /* Info.plist */,
+			);
+			path = "ios-cara-coroaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046B24BB27F2A446001A0D03 /* ios-cara-coroa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046B24E627F2A44C001A0D03 /* Build configuration list for PBXNativeTarget "ios-cara-coroa" */;
+			buildPhases = (
+				046B24B827F2A446001A0D03 /* Sources */,
+				046B24B927F2A446001A0D03 /* Frameworks */,
+				046B24BA27F2A446001A0D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-cara-coroa";
+			productName = "ios-cara-coroa";
+			productReference = 046B24BC27F2A446001A0D03 /* ios-cara-coroa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046B24D127F2A44B001A0D03 /* ios-cara-coroaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046B24E927F2A44C001A0D03 /* Build configuration list for PBXNativeTarget "ios-cara-coroaTests" */;
+			buildPhases = (
+				046B24CE27F2A44B001A0D03 /* Sources */,
+				046B24CF27F2A44B001A0D03 /* Frameworks */,
+				046B24D027F2A44B001A0D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046B24D427F2A44B001A0D03 /* PBXTargetDependency */,
+			);
+			name = "ios-cara-coroaTests";
+			productName = "ios-cara-coroaTests";
+			productReference = 046B24D227F2A44B001A0D03 /* ios-cara-coroaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		046B24DC27F2A44B001A0D03 /* ios-cara-coroaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046B24EC27F2A44C001A0D03 /* Build configuration list for PBXNativeTarget "ios-cara-coroaUITests" */;
+			buildPhases = (
+				046B24D927F2A44B001A0D03 /* Sources */,
+				046B24DA27F2A44B001A0D03 /* Frameworks */,
+				046B24DB27F2A44B001A0D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046B24DF27F2A44B001A0D03 /* PBXTargetDependency */,
+			);
+			name = "ios-cara-coroaUITests";
+			productName = "ios-cara-coroaUITests";
+			productReference = 046B24DD27F2A44B001A0D03 /* ios-cara-coroaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046B24B427F2A446001A0D03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					046B24BB27F2A446001A0D03 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					046B24D127F2A44B001A0D03 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 046B24BB27F2A446001A0D03;
+					};
+					046B24DC27F2A44B001A0D03 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 046B24BB27F2A446001A0D03;
+					};
+				};
+			};
+			buildConfigurationList = 046B24B727F2A446001A0D03 /* Build configuration list for PBXProject "ios-cara-coroa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046B24B327F2A446001A0D03;
+			productRefGroup = 046B24BD27F2A446001A0D03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046B24BB27F2A446001A0D03 /* ios-cara-coroa */,
+				046B24D127F2A44B001A0D03 /* ios-cara-coroaTests */,
+				046B24DC27F2A44B001A0D03 /* ios-cara-coroaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046B24BA27F2A446001A0D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046B24CC27F2A44B001A0D03 /* LaunchScreen.storyboard in Resources */,
+				046B24C927F2A44B001A0D03 /* Assets.xcassets in Resources */,
+				046B24C727F2A446001A0D03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046B24D027F2A44B001A0D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046B24DB27F2A44B001A0D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046B24B827F2A446001A0D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0496008127F2AC10002903F9 /* DetalhesViewController.swift in Sources */,
+				046B24C427F2A446001A0D03 /* ViewController.swift in Sources */,
+				046B24C027F2A446001A0D03 /* AppDelegate.swift in Sources */,
+				046B24C227F2A446001A0D03 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046B24CE27F2A44B001A0D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046B24D727F2A44B001A0D03 /* ios_cara_coroaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046B24D927F2A44B001A0D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046B24E227F2A44B001A0D03 /* ios_cara_coroaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046B24D427F2A44B001A0D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046B24BB27F2A446001A0D03 /* ios-cara-coroa */;
+			targetProxy = 046B24D327F2A44B001A0D03 /* PBXContainerItemProxy */;
+		};
+		046B24DF27F2A44B001A0D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046B24BB27F2A446001A0D03 /* ios-cara-coroa */;
+			targetProxy = 046B24DE27F2A44B001A0D03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046B24C527F2A446001A0D03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046B24C627F2A446001A0D03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046B24CA27F2A44B001A0D03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046B24CB27F2A44B001A0D03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046B24E427F2A44C001A0D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		046B24E527F2A44C001A0D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046B24E727F2A44C001A0D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P65LS7STQH;
+				INFOPLIST_FILE = "ios-cara-coroa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.srsj.ios-cara-coroa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046B24E827F2A44C001A0D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P65LS7STQH;
+				INFOPLIST_FILE = "ios-cara-coroa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.srsj.ios-cara-coroa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		046B24EA27F2A44C001A0D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P65LS7STQH;
+				INFOPLIST_FILE = "ios-cara-coroaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.srsj.ios-cara-coroaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-cara-coroa.app/ios-cara-coroa";
+			};
+			name = Debug;
+		};
+		046B24EB27F2A44C001A0D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P65LS7STQH;
+				INFOPLIST_FILE = "ios-cara-coroaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.srsj.ios-cara-coroaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-cara-coroa.app/ios-cara-coroa";
+			};
+			name = Release;
+		};
+		046B24ED27F2A44C001A0D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P65LS7STQH;
+				INFOPLIST_FILE = "ios-cara-coroaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.srsj.ios-cara-coroaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-cara-coroa";
+			};
+			name = Debug;
+		};
+		046B24EE27F2A44C001A0D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P65LS7STQH;
+				INFOPLIST_FILE = "ios-cara-coroaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.srsj.ios-cara-coroaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-cara-coroa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046B24B727F2A446001A0D03 /* Build configuration list for PBXProject "ios-cara-coroa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046B24E427F2A44C001A0D03 /* Debug */,
+				046B24E527F2A44C001A0D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046B24E627F2A44C001A0D03 /* Build configuration list for PBXNativeTarget "ios-cara-coroa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046B24E727F2A44C001A0D03 /* Debug */,
+				046B24E827F2A44C001A0D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046B24E927F2A44C001A0D03 /* Build configuration list for PBXNativeTarget "ios-cara-coroaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046B24EA27F2A44C001A0D03 /* Debug */,
+				046B24EB27F2A44C001A0D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046B24EC27F2A44C001A0D03 /* Build configuration list for PBXNativeTarget "ios-cara-coroaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046B24ED27F2A44C001A0D03 /* Debug */,
+				046B24EE27F2A44C001A0D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046B24B427F2A446001A0D03 /* Project object */;
+}
